@@ -113,7 +113,7 @@ export default function ToursAndEcoTourism() {
             <div>
               <h2 className="text-2xl md:text-4xl font-bold text-center text-black leading-11 ">
                 Tours &
-                <span className="text-green-600 text-center"> Eco Tourism</span>
+                <span className="text-[#5F9111] text-center"> Eco Tourism</span>
               </h2>
             </div>
           </div>

@@ -162,9 +162,9 @@ export default function FlashOffer() {
 
   return (
     <section className="py-10">
-      <h2 className="text-2xl font-bold text-center mb-6 text-black">
+      <h2 className="text-2xl md:text-4xl font-bold text-center mb-20 text-black">
         <FaBolt className="inline text-red-600 mr-1" />
-        Flash <span className="text-green-600">Offer</span>
+        Flash <span className="text-[#5F9111]">Offer</span>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1320px] mx-auto px-4">
         {flashOffers.map((offer, index) => (

@@ -109,7 +109,7 @@ export default function Transportation() {
         <div>
           <h2 className="text-2xl md:text-4xl font-bold text-center text-black leading-11 ">
             Transportation and
-            <span className="text-green-600 text-center"> travel service</span>
+            <span className="text-[#5F9111] text-center"> travel service</span>
           </h2>
         </div>
       </div>

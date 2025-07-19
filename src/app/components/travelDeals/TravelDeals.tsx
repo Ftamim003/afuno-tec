@@ -102,7 +102,7 @@ export default function TravelDeals() {
  
     <h2 className="text-3xl md:text-4xl font-bold text-center mt-20 mb-16 text-black leading-11">
             <Image src="/holidays.png" width={9} height={9} alt="Tours Icon" className="inline  mr-3 size-9" />
-             <span className="text-green-600 "> Travels deals</span>
+             <span className="text-[#5F9111]"> Travels deals</span>
           </h2>
 
     <Carousel

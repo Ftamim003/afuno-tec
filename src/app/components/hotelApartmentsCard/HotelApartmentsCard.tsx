@@ -111,7 +111,7 @@ export default function HotelApartmentsCard() {
           <h2 className="text-2xl md:text-4xl font-bold text-center text-black leading-11">
             Hotels
            
-            <span className="text-green-600"> Apartments  <br className="block md:hidden" />and Lodge</span>
+            <span className="text-[#5F9111]"> Apartments  <br className="block md:hidden" />and Lodge</span>
           </h2>
         </div>
       </div>

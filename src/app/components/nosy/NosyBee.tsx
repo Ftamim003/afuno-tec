@@ -102,7 +102,7 @@ export default function NosyBee() {
  
     <h2 className="text-3xl md:text-4xl font-bold text-center mt-20 mb-16 text-black leading-11">
             <Image src="/nosyBee.png" width={9} height={9} alt="Tours Icon" className="inline  mr-3 size-9" />
-             Nosy <span className="text-green-600 "> Bee</span>
+             Nosy <span className="text-[#5F9111] "> Bee</span>
           </h2>
 
     <Carousel
