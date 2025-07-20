@@ -98,7 +98,7 @@ export default function ToursAndEcoTourism() {
   
   return (
 
-    <div>
+    <div id="tours">
  
       <div className=" mt-20 mb-10 md:flex items-center justify-center">
             <div className="flex items-center justify-center  md:mb-0">
@@ -171,7 +171,7 @@ export default function ToursAndEcoTourism() {
               </div>
               <p className="text-sm md:text-[16px] leading-5 mt-4 ">
                 As From{" "}
-                <span className="text-red-500 font-bold text-[16px]">Rs {offer.price}</span>
+                <span className="text-red-500 font-bold text-[16px]">Ar {offer.price}</span>
               </p>
             </div>
           </div>

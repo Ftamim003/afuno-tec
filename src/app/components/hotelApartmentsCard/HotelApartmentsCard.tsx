@@ -176,7 +176,7 @@ export default function HotelApartmentsCard() {
                       <p className="text-sm md:text-[16px] leading-5 mt-4 ">
                         As From{" "}
                         <span className="text-red-500 font-bold text-[16px]">
-                          Rs {offer.price}
+                          Ar {offer.price}
                         </span>
                       </p>
                     </div>

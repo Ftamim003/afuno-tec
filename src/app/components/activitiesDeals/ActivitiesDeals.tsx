@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function ActivitiesDeals() {
   return (
-    <div>
+    <div id="activities" >
         <div className="mt-20 mb-12 flex items-center justify-center">
         <div className="flex items-center justify-center  md:mb-0">
                       <Image

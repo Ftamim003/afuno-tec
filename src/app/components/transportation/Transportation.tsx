@@ -95,7 +95,7 @@ export default function Transportation() {
   ];
 
   return (
-    <div>
+    <div id="transportation">
       <div className=" mt-20 mb-10 md:flex items-center justify-center">
         <div className="flex items-center justify-center  md:mb-0">
           <Image
@@ -174,7 +174,7 @@ export default function Transportation() {
                       <p className="text-sm md:text-[16px] leading-5 mt-4 ">
                         As From{" "}
                         <span className="text-red-500 font-bold text-[16px]">
-                          Rs {offer.price}
+                          Ar {offer.price}
                         </span>
                       </p>
                     </div>

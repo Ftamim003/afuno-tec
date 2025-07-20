@@ -98,7 +98,7 @@ export default function TravelDeals() {
   
   return (
 
-    <div>
+    <div id="travel-deals">
  
     <h2 className="text-3xl md:text-4xl font-bold text-center mt-20 mb-16 text-black leading-11">
             <Image src="/holidays.png" width={9} height={9} alt="Tours Icon" className="inline  mr-3 size-9" />
@@ -158,7 +158,7 @@ export default function TravelDeals() {
               </div>
               <p className="text-sm md:text-[16px] leading-5 mt-4 ">
                 As From{" "}
-                <span className="text-red-500 font-bold text-[16px]">Rs {offer.price}</span>
+                <span className="text-red-500 font-bold text-[16px]">Ar {offer.price}</span>
               </p>
             </div>
           </div>

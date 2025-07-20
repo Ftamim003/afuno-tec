@@ -74,7 +74,7 @@ function ResortCard({
                 <p className="text-[16px] leading-5">
                   As From{" "}
                   <span className="text-red-500 font-bold text-[16px] leading-5">
-                    Rs {offer.price}
+                    Ar {offer.price}
                   </span>
                 </p>
               </div>
@@ -96,7 +96,7 @@ function ResortCard({
               </div>
               <p className="text-sm text-[16px] leading-5">
                 As From{" "}
-                <span className="text-red-500 font-bold">Rs {offer.price}</span>
+                <span className="text-red-500 font-bold">Ar {offer.price}</span>
               </p>
             </div>
           </div>
