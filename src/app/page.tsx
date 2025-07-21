@@ -10,12 +10,13 @@ import AddtionalInformation from "./components/addtionalInformation/AddtionalInf
 import WhyChooseUs from "./components/whyChooseUs/WhyChooseUs";
 import GetInTouch from "./components/getInTouch/GetInTouch";
 import ActivitiesDeals from "./components/activitiesDeals/ActivitiesDeals";
+import BestDeals from "./components/bestDeals/BestDeals";
 
 
 export default function Home() {
   return (
     <div>
-      
+      <BestDeals></BestDeals>
       <FlashOffer />
 
       <HotelApartmentsCard />
@@ -28,6 +29,7 @@ export default function Home() {
       <AddtionalInformation></AddtionalInformation>
       <WhyChooseUs></WhyChooseUs>
       <GetInTouch></GetInTouch>
+      
     </div>
   );
 }

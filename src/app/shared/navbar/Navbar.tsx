@@ -11,6 +11,8 @@ import { CiHeart } from "react-icons/ci";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { HeaderCoursel } from "@/app/components/header-carousel/HeaderCarousel";
+
 
 
 
@@ -42,6 +44,7 @@ const navItems = [
   const isActive = (href: string) => pathname === href;
 
   return (
+    <>
     <header>
       
 
@@ -157,6 +160,9 @@ const navItems = [
         </ul>
       </div>
     </nav>
+     
     </header>
+   <HeaderCoursel></HeaderCoursel>
+    </>
   );
 }
