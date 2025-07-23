@@ -100,10 +100,23 @@ export default function NosyBee() {
 
     <div id="nosybe">
  
-    <h2 className="text-3xl md:text-4xl font-bold text-center mt-20 mb-16 text-black leading-11">
-            <Image src="/nosyBee.png" width={9} height={9} alt="Tours Icon" className="inline  mr-3 size-9" />
-             Nosy <span className="text-[#5F9111] "> Bee</span>
-          </h2>
+    <div className=" mt-20 mb-10 md:flex  md:gap-9 items-center justify-center">
+            <div className="flex items-center justify-center  md:mb-0 ">
+              <Image
+                src="/nosyBeImage.png"
+                width={36}
+                height={36}
+                alt="Tours Icon"
+                
+              />
+            </div>
+            <div>
+              <h2 className="text-2xl md:text-4xl font-bold text-center text-black leading-11 ">
+                Nosy
+                <span className="text-[#5F9111] text-center"> Be  </span>
+              </h2>
+            </div>
+          </div>
 
     <Carousel
       opts={{ align: "start" }}

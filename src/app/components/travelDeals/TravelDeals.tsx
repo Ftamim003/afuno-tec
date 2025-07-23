@@ -100,11 +100,23 @@ export default function TravelDeals() {
 
     <div id="travel-deals">
  
-    <h2 className="text-3xl md:text-4xl font-bold text-center mt-20 mb-16 text-black leading-11">
-            <Image src="/holidays.png" width={9} height={9} alt="Tours Icon" className="inline  mr-3 size-9" />
-             <span className="text-[#5F9111]"> Travels deals</span>
-          </h2>
-
+    <div className=" mt-20 mb-10 md:flex  md:gap-9 items-center justify-center">
+            <div className="flex items-center justify-center  md:mb-0 ">
+              <Image
+                src="/travelDealsImage.png"
+                width={36}
+                height={36}
+                alt="Tours Icon"
+                
+              />
+            </div>
+            <div>
+              <h2 className="text-2xl md:text-4xl font-bold text-center text-black leading-11 ">
+                
+                <span className="text-[#5F9111] text-center"> Travel deals</span>
+              </h2>
+            </div>
+          </div>
     <Carousel
       opts={{ align: "start" }}
       className="relative  max-w-[1320px] mx-auto my-8 px-4"

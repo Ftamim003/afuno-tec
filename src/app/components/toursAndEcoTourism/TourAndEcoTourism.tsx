@@ -100,14 +100,14 @@ export default function ToursAndEcoTourism() {
 
     <div id="tours">
  
-      <div className=" mt-20 mb-10 md:flex items-center justify-center">
+      <div className=" mt-20 mb-10 md:flex items-center justify-center md:gap-9">
             <div className="flex items-center justify-center  md:mb-0">
               <Image
-                src="/Frame.png"
-                width={9}
-                height={9}
+                src="/toursImage.png"
+                width={36}
+                height={36}
                 alt="Tours Icon"
-                className="inline md:mr-9 size-6 md:size-9 "
+                className=" "
               />
             </div>
             <div>

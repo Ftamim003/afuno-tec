@@ -96,14 +96,14 @@ export default function Transportation() {
 
   return (
     <div id="transportation">
-      <div className=" mt-20 mb-10 md:flex items-center justify-center">
-        <div className="flex items-center justify-center  md:mb-0">
+      <div className=" mt-20 mb-10 md:flex  md:gap-9 items-center justify-center">
+        <div className="flex items-center justify-center  md:mb-0 ">
           <Image
-            src="/transport.png"
-            width={9}
-            height={9}
+            src="/transportationImage.png"
+            width={36}
+            height={36}
             alt="Tours Icon"
-            className="inline md:mr-9 size-6 md:size-9 "
+            
           />
         </div>
         <div>

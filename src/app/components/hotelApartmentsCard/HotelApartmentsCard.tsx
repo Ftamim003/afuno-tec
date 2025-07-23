@@ -97,14 +97,14 @@ export default function HotelApartmentsCard() {
 
   return (
     <div>
-      <div className=" mt-20 mb-16 md:flex md:items-center justify-center">
+      <div className=" mt-20 mb-16 md:flex md:items-center justify-center md:gap-9">
         <div className="flex items-center justify-center  md:mb-0">
           <Image
             src="/hotelApartments.png"
-            width={9}
-            height={9}
+            width={36}
+            height={36}
             alt="Tours Icon"
-            className="inline md:mr-9 size-6 md:size-9 "
+            className=" "
           />
         </div>
         <div>
