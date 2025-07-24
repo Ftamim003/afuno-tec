@@ -10,7 +10,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       {/* Sidebar */}
       <DashboardSidebar />
 
-      <div className="flex-1 flex flex-col bg-gray-50">
+      <div className="flex-1 md:flex-col bg-gray-50">
         {/* Header */}
         <DashboardHeader />
 

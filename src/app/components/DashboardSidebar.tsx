@@ -10,6 +10,8 @@ const navItems = [
 
 const managementItems = [
   { name: "Guests", href: "/dashboard/guest", icon: <FaUsers /> },
+  { name: "Users", href: "/dashboard/users", icon: <FaUsers /> },
+  { name: "Rooms", href: "/dashboard/rooms", icon: <FaUsers /> },
   
 ];
 
