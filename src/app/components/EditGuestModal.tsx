@@ -141,9 +141,9 @@ const EditGuestModal: React.FC<EditGuestModalProps> = ({
         className="w-full px-4 py-2 border rounded bg-[#F0EEEE]"
       >
         <option value="">Select Status</option>
-        <option value="Active">Active</option>
-        <option value="Inactive">Inactive</option>
-        <option value="Pending">Pending</option>
+        <option value="Single">Single</option>
+        <option value="Married">Married</option>
+        <option value="Divorced">Divorced</option>
       </select>
     </div>
   </div>

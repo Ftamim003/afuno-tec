@@ -25,7 +25,7 @@ export default function Navbar() {
 
 const navItems = [
   { name: "HOTELS", href: "/#hotels", title: "Hotels, Apartments & Lodge" },
-  { name: "ACTIVITIES", href: "/#activities", title: "Activities Deals" },
+  { name: "ACTIVITIES", href: "/activities", title: "Activities Deals" },
   { name: "TOURS", href: "/#tours", title: "Tours & Eco Tourism" },
   { name: "TRANSPORTATION", href: "/#transportation", title: "Transportation & Travel Service" },
   { name: "MEETINGS", href: "/#business", title: "Business Meetings" },
@@ -162,7 +162,7 @@ const navItems = [
     </nav>
      
     </header>
-   <HeaderCoursel></HeaderCoursel>
+   
     </>
   );
 }

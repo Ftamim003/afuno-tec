@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import FlashOffer from "../components/flashOffer/FlashOffer";
 import HotelApartmentsCard from "../components/hotelApartmentsCard/HotelApartmentsCard";
@@ -11,11 +12,13 @@ import WhyChooseUs from "../components/whyChooseUs/WhyChooseUs";
 import GetInTouch from "../components/getInTouch/GetInTouch";
 import ActivitiesDeals from "../components/activitiesDeals/ActivitiesDeals";
 import BestDeals from "../components/bestDeals/BestDeals";
+import { HeaderCoursel } from "../components/header-carousel/HeaderCarousel";
 
 
 export default function Home() {
   return (
     <div>
+       <HeaderCoursel></HeaderCoursel> 
       <BestDeals></BestDeals>
       <FlashOffer />
 
