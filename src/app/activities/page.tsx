@@ -1,15 +1,6 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import ActivityFilterSidebar from "./ActivityFilterSidebar";
 import Navbar from "../shared/navbar/Navbar";
 import InputField from "../components/bestDeals/InputField";
